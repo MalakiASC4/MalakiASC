@@ -9,6 +9,10 @@ console.log (randLettuce[randLetter(26)]);
 function randWord(num){
     var randWormy=Math.random()*num;
     var result=Math.floor(randWormy);
+    var word="";
+    for (var i=0; i<randLettuce;i++){
+        randWormy+=randLetter(num);
+    }
 return result
 };
-console.log (randLettuce[randLetter(26)]);
+
