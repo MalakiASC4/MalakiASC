@@ -5,7 +5,7 @@ var myName = ("Malaki Elijah Martin");
 var myArray = [17, "Malaki", true];
 
 function printHello(
-    console.log =[myArray]
+    console.log [myArray]
 )
 
 //having trouble with conditional here
