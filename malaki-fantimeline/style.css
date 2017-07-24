@@ -1,0 +1,35 @@
+.toriyama{
+    border:3px solid gold;
+    margin:30px auto;
+    padding:15px;        
+}
+
+body{
+    border:5px solid olive;
+    margin:30px auto;
+    padding:15px;
+}
+
+.earlyLife{
+    border:5px solid orange;
+    margin:30px auto;
+    padding:15px;
+}
+
+.personalLife{
+    border:5px solid blue;
+    margin:30px auto;
+    padding:15px;
+}
+
+.famousWork{
+    border:5px solid orange;
+    margin:30px auto;
+    padding:15px;
+
+}
+.toriyamaDrawings{
+    border:5px solid blue;
+    margin:30px auto;
+    padding:15px;
+}
