@@ -1,0 +1,26 @@
+.cleats{
+    color:red;
+}
+
+
+
+.jumbotron{
+    background:url("assets/ssf2logo.png");
+    background-size:cover;
+    background-size:center;
+    background:olive;
+}
+
+.jumbotron h1{
+    font-family: "Brush Script MT", cursive;
+    color:white;
+}
+
+.cheese{
+    background:black;
+    max-width:300;
+    margin: 0 auto;
+}
+.whatitis{
+    color:blue;
+}

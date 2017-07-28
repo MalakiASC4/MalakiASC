@@ -1,0 +1,20 @@
+.navbar{
+    background-image:url("https://media.giphy.com/media/3oKIPlB1nanDvSf5Ys/giphy.gif?blur");
+    background-size:cover;
+    background-image:center;
+}
+
+body{
+    background-image:url("https://media.giphy.com/media/xTiTnI1mdyxsFKTFjW/giphy.gif");
+    background-size:cover;
+
+}
+
+.cheese{
+    background:black;
+    font-family:comic Sans MS;
+}
+
+.center{
+     margin: 0 auto; width: 400px;
+}
