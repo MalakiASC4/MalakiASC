@@ -1,0 +1,49 @@
+.row .col-md-6{
+    text-align: center;
+}
+
+body{
+    border: 20px ridge burlywood;
+    background-image: url(http://www.zingerbug.com/Backgrounds/background_images/tan_ornate_floral_wallpaper_tileable.jpg);
+}
+
+img{
+    text-align: center;
+    width: 75%;
+}
+
+.container-fluid{
+    padding: 8px;
+}
+
+.text{
+    text-align: center;
+}
+
+.text h2{
+    font-size: 35pt;
+}
+
+.buttons{
+    margin-bottom: 15px;
+}
+
+.buttons2{
+    margin-top: 15px;
+}
+
+.carousel-caption{
+    color: black;
+}
+
+h1{
+    color: black;
+}
+
+.jumbotron{
+    width: auto;
+}
+
+button{
+text-align: center;
+}

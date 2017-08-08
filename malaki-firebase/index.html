@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bang. You're Dead.</title> 
+        <link href="" rel="shortcut icon" type="image/png">
+        <link href="" rel="stylesheet" type="text/css">
+        <script src="" type="text/javascript"></script>
+        <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+        </style>
+        <script type="text/javascript">
+
+  </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+  </script>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBgb5h0bAhbzk4z_MA-K3Twod5O2ai1GzQ",
+    authDomain: "bang-you-dead.firebaseapp.com",
+    databaseURL: "https://bang-you-dead.firebaseio.com",
+    projectId: "bang-you-dead",
+    storageBucket: "",
+    messagingSenderId: "709158955222"
+  };
+  firebase.initializeApp(config);
+</script>
+    </head>
+    <body>
+    <header>
+    </header>
+    <aside>
+    </aside>
+    <div id="main">
+    <h1>Well, Do You Feel Lucky Punk?</h1>
+
+<h2 class="auto-style1">Well Do You?</h2>
+
+
+<script>
+
+  function myFunction1() {
+    var result = document.getElementById("pic");
+    var x = Math.floor(Math.random() * 3);
+    console.log(x);
+  
+    if (x == 0) {
+      document.getElementById("Coin").innerHTML = "You're Dead Now, Mr. Lucky"
+
+ result.innerHTML="<img alt=\"the frontside of a coin\" src='\assets/headshot.jpg'/>";  }
+  else {
+      document.getElementById("Coin").innerHTML = "Seems you are lucky. Try again?";
+      result.innerHTML= "<img alt=\"the backside of a coin\" src='\assets/matrix.jpg'/>";
+    }
+    console.log(result)
+    console.log(Coin)
+    
+  }
+  
+myFunction1();
+</script>
+<script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+      </script>
+
+<button type="button" onclick="myFunction1();onClick()" id="Coin">I'm Feeling Lucky :3</button>
+<p id="pic"> </p>
+</div>
+<footer>
+</footer>
+<p>Clicks: <a id="clicks">0</a></p>
+</body>
+</html>
