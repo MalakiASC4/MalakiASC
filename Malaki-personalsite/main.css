@@ -7,7 +7,6 @@
 body{
     background-image:url("https://media.giphy.com/media/xTiTnI1mdyxsFKTFjW/giphy.gif");
     background-size:cover;
-
 }
 
 .cheese{
@@ -38,4 +37,24 @@ body{
 
 .audioCenter{
     margin: 10px auto; width: 320px;
+}
+.heart{
+    display:block;
+    margin: 0 auto;
+}
+
+.Questions{
+    text-align:center;
+}
+
+h6{
+    font-size:30px;
+}
+h7{
+    font-size:30px;
+}
+#w{
+    background-image:url("Assets/Yin Yang.gif");
+    background-size:cover;
+    background-image:center;
 }
